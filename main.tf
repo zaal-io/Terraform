@@ -7,3 +7,9 @@ terraform {
       }
   }
 }
+
+# Provides configuration details for the Azure Terraform provider
+provider "azurerm" {
+    features {}
+}
+
